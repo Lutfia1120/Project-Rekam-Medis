@@ -16,11 +16,15 @@
         <form action="" class="form" method="POST">
             <div class="input-box">
                 <label>Nama Dokter</label>
-                <input type="text" name="nm" placeholder="Nama lengkap">
+                <input type="text" name="nm_dokter" placeholder="Masukkan nama lengkap">
             </div>
             <div class="input-box">
-                <label>Nama</label>
-                <input type="text" name="nm" placeholder="Nama">
+                <label>SIP</label>
+                <input type="text" name="SIP" placeholder="Masukkan nomor SIP">
+            </div>
+            <div class="input-box">
+                <label>Tempat Lahir</label>
+                <input type="text" name="tmpt_lahir" placeholder="Masukkan tempat lahir">
             </div>
         </form>
     </section>
