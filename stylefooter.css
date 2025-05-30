@@ -1,0 +1,23 @@
+*, html, body{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: #A57865;
+    padding-top: 20px;
+}
+
+.container{
+    width: 100%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+.footerisi{
+    color: #ffffff;
+    margin: 0;
+    font-size: 19px;
+    padding: 7px;
+}
