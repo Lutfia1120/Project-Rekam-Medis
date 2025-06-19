@@ -1,94 +1,75 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    min-width:200vh;
-    background: linear-gradient(to right, #A57865, #ffffff);
-    color:#000000;
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right, #A57865, #ffffff);
+  font-family: Arial, sans-serif;
 }
 
 .container {
-    margin: 0 15px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-box {
-    width :100%;
-    max-width: 500px;
-    padding: 30px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    display: none;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.form-box.active{
-    display: block;
-}
-
-h2 {
-    font-size: 34px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-input,
-select {
-    width: 100%;
-    padding: 12px;
-    background: rgb(235, 235, 238);
-    border-radius: 6px;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    color: rgb(8, 8, 8);
-    margin-bottom: 20px;
+input, select {
+  width: 100%;
+  padding: 12px;
+  background: #e9ecef;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #000;
 }
 
 button {
-    width: 100%;
-    padding: 12px;
-    background: #649bcf;
-    border-radius: 6px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 20px;
-    transition: 0.5s;
+  width: 100%;
+  padding: 12px;
+  background: #649bcf;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.5s;
+  margin-bottom: 20px;
 }
 
-button:hover{
-    background: #92b9df;
+button:hover {
+  background: #92b9df;
 }
 
-p {
-    font-size: 14.5px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-p a{
-    color: #447eb8;
-    text-decoration: none;
-} 
-
-p a:hover {
- text-decoration: underline;
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .pesan-eror {
-    padding: 12px;
-    background: #fcbea4;
-    border-radius: 6px;
-    font-size: 16px;
-    color: #aa0303;
-    text-align: center;
-    margin-bottom: 20px;
+  padding: 12px;
+  background: #fcbea4;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #aa0303;
+  text-align: center;
+  margin-bottom: 20px;
 }

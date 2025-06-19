@@ -50,7 +50,7 @@
                <option value="">Pasien</option>
             </select>
             <button type = "submit" name = "register">Register</button>
-            <p>Sudah mempunyai akun? <a href = "" onclick="showForm('form-login')"> Login</a> </p>
+            <p>Sudah mempunyai akun? <a href = "" oncli ck="showForm('form-login')"> Login</a> </p>
         </form>
        </div>
     </div>
